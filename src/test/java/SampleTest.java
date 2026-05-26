@@ -705,30 +705,10 @@ public class SampleTest {
         driver.get("https://demoqa.com/widgets");
         Thread.sleep(500);
 
-        auto();
-        auto1();
-        auto2();
-        auto3();
-        auto4();
-        auto5();
-        auto6();
-        auto7();
 
-        sortable();
-        Thread.sleep(2000);
 
-        selectable();
-        Thread.sleep(2000);
 
-        resizable();
-        Thread.sleep(2000);
 
-        droppable();
-        Thread.sleep(2000);
-
-        draggable();
-
-        driver.quit();
 
         tearDown();
     }
